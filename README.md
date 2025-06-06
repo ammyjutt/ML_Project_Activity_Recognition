@@ -15,7 +15,7 @@ This project aims to figure out what the person is doing at a specific time. The
 We’ve experimented with four ML models for classification. First of all we used logistic regression classifier for 2 classes. Then, we used the neural networks with 5 number of classes for multi-class classification. In the end, we used random forest and SVM algorithm for better performance. 
 
 
-![alt text](resources/bar_charts.png)
+
 
 ### Challenge We faced
 The number of input featuers inceased as we planned to classify 55 activities. So, we decided to eliminate some featues and tried to do the feature engineering to only include the features that really mattered. However, it was hard to figure out manually. Ultimately, we employed the PCA algorithm to automatically select the most relevant features.It really improved the model's performing, allowing it to focus on relvant features only.
